@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 6px;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 98vw;
+  height: 97vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.containerFormProductos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+  height: auto;
+  border: 1px solid black;
+}
+
+.formAddProducto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 90%;
+  min-width: 100px;
+  max-width: 250px;
+}
+
+.titleCargar {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.titleAddProducto,
+.descripcionAddProducto,
+.precioAddProducto {
+  word-wrap: break-word;
+  font-family: sans-serif;
+  resize: none;
+  overflow-y: hidden;
+  border: 1px solid black;
+  border-radius: 0.5em;
+  padding: 10px 5px;
+}
+
+.btnAgregar {
+  background-color: darkgray;
+  padding: 0.6em;
+  border: 1px solid transparent;
+  border-radius: 0.7em;
+  font-family: sans-serif;
+}
+
+.containerListProductos {
+  padding: 4px;
+  width: 60vw;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.headerListado {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleListado {
+  margin: 0;
+}
+
+.precios {
+  display: flex;
+  flex-direction: row;
+}
+
+.carrito {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.precioTotal {
+  margin: 0;
+}
+
+.containerProductos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
